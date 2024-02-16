@@ -23,7 +23,7 @@ function draw() {
     background("#fffcf9");
     placeCircles(30);
     filter(BLUR, blurAmount);
-    saveCanvas("myCanvas" + imageCounter, "png"); // Save the canvas as a PNG with a unique name
+    saveCanvas("myCanvas" + imageCounter, "jpeg"); // Save the canvas as a PNG with a unique name
     imageCounter++; // Increment the counter
   }
 }
